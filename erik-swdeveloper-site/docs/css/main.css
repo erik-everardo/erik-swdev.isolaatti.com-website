@@ -1,0 +1,135 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+body{
+    background-color: rgb(32, 35, 39);
+}
+#header {
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-image: url("../res/codigo.png") ;
+    background-position: center;
+    background-color:rgb(20, 109, 225);
+    background-blend-mode:color-dodge;
+}
+#frase-matona{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+.main-bar #header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px!important;
+    width: 100%;
+}
+.main-bar{
+    display: flex;
+    background-color:rgb(20, 109, 225,0.8);
+    position: sticky;
+    width: 100%;
+    z-index: 1000;
+    top:0;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-blend-mode: color-burn
+}
+.nav-item{
+    display: flex;
+    color:white;
+    padding:20px 10px;
+}
+.nav-item:hover {
+    background-color: black;
+}
+.fullscreen-slide {
+    display: flex;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rounded-card{
+    text-decoration: none;
+    color:white;
+    width: 300px;
+    height: 300px;
+    padding:20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.rounded-card h2 {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.rounded-card-blue {
+    border: 1px solid rgb(20, 109, 250);
+    background-color:rgb(20, 109, 225);
+    background-blend-mode: color-burn
+}
+.rounded-card-blue:hover {
+    background-color:rgb(39, 115, 214);
+}
+.rounded-card-isolaatti-purple {
+    background-color: #6200EE;
+    border: 1px solid #710cff;
+    background-blend-mode: color-burn
+}
+.rounded-card-isolaatti-purple:hover {
+    background-color: #7f31eb;
+}
+.portafolio {
+    background-image: url("../res/codigo.png");
+    background-position: center;
+}
+.verificadores-isolaatti{
+    background-image: url("../res/testing.png");
+    background-position: center;
+}
+.contacto {
+    background-image: url("../res/erik.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img-small {
+    max-width:250px;
+    margin: 20px;
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.autosize-rounded-card{
+    height: auto!important;
+    text-decoration: none;
+    color:white;
+    width: 300px;
+    padding:20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.autosize-rounded-card > p, .autosize-rounded-card > a,.autosize-rounded-card > ul, .autosize-rounded-card  li {
+    margin: 10px;
+}
+.page-title{
+    padding: 10px;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    overflow: auto;
+    position: sticky;
+    top:0;
+}
